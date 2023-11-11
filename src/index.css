@@ -1,0 +1,170 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: rgb(60, 60, 60);
+}
+.navbar
+{ font-size: 40px;
+  background-color: rgb(249, 249, 249);
+ margin: 3rem;
+ height: 60px;
+ width: auto;
+ border-radius: 6px;
+ display: flex;
+ justify-content: center;
+}
+
+.imgnav
+{ margin-top: 2px;
+  width: 50px;
+  height:50px;
+ 
+}
+.AllElement
+{
+  max-width: 470px;
+  margin: auto;
+}
+.inputb
+{
+  background-color: transparent;
+  border:2px solid  rgb(255, 255, 255);
+  border-radius: 5px;
+  display: flex;
+  flex-grow: 2;
+  margin-left: 3rem;
+  padding-left: 3rem;
+  text-align: center;
+}
+input{
+  flex-grow: 2;
+
+  width: 20.6rem;
+  height: 50px;
+  color: white;
+  /* padding: 25px; */
+}
+.input
+{
+  position: relative;
+  text-align: center;
+}
+.searchicon
+{ position: absolute;
+  color:white;
+ margin-left: 3.2rem;
+ margin-top:4px ;
+ width: 40px;
+ height: 40px;
+}
+.plusicon
+{ background-color: transparent;
+  color: white;
+  width: 50px;
+  height: 50px;
+  gap: 10px;
+  justify-content:space-between ;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+.searchElement
+{ 
+  display: flex;
+}
+.Loading{
+  text-align: center;
+  margin-top: 18rem;
+  font-size: 80px;
+  color:white;
+}
+.Contactdata 
+{
+  color: rgb(0, 0, 0);
+  /* display: flex; */
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+  width: 23rem;
+  margin: 2rem;
+  height: 3rem;
+  margin-left: 3rem;
+  border-radius: 4px;
+  
+}
+.IconeditdeleteDiv
+{
+  display: flex;
+  /* flex-direction: column; */
+ float: right;
+ margin-top: -38px;
+}
+.editIcon
+{
+  width: 30px;
+  height: 30px;
+
+}
+.deleteIcon
+{
+  width: 30px;
+  height: 30px;
+  margin-left: 8px;
+}
+.contactdetails
+{
+  margin-left: 40px;
+  margin-top: -30px;
+  /* position: fixed; */
+}
+.usericon
+{
+  width: 30px;
+  height: 30px;
+  margin-top: 30px;
+}
+.usericondiv
+{
+  margin-top: -2px;
+}
+.bgwhite
+{
+background-color: rgb(243, 243, 243);
+width: 23rem;
+border-radius: 5px;
+  height: 3rem;
+}
+.ModalBody
+{
+  background-color: white;
+  width: 400px;
+  height: 200px;
+  color: black;
+  margin-top: 11rem;
+  margin-left: 2rem;
+ 
+}
+ .email
+{ border-radius: 5px;
+  border:2px solid black;
+  color: black;
+}
+ .name
+{
+  border:2px solid black;
+  border-radius: 5px;
+  color: black;
+}
+.btn-form 
+{
+  align-items: center;
+  background-color: brown;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  margin-left: 0.5rem;
+  width: 90%;
+  border-radius: 5px;
+
+ }
